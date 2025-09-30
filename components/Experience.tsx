@@ -9,7 +9,7 @@ const Experience: React.FC<{}> = () => {
           WHAT I&apos;M EXPERIENCED IN
         </h2>
         <p className="tracking-[0.5em] text-center text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-purple-700 to-orange-500 text-1xl">
-          EXPLORE NOW
+          
         </p>
         <div className="max-w-4xl mx-auto"> {/* Или этот для ограничения ширины текста */}
           <p className="text-gray-300 pt-5 leading-8 text-left">
