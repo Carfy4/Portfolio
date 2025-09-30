@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: '',
-  assetPrefix: '',
+  experimental: {
+    forceSwcTransforms: true,
+  },
 }
 
 module.exports = nextConfig
