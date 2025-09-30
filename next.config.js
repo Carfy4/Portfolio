@@ -1,11 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  trailingSlash: true,
+  trailingSlash: false,
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: '/',
   images: {
     unoptimized: true
+  },
+  distDir: 'out',
+  experimental: {
+    inlineCss: false
   }
 }
 
