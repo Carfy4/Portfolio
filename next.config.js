@@ -5,8 +5,16 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  experimental: {
-    forceSwcTransforms: true,
+  // Для Three.js и WebGL
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': './',
+    }
+    return config
+  },
+  compiler: {
+    styledComponents: true,
   },
 }
 
