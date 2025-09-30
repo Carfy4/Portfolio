@@ -14,8 +14,8 @@ const About: React.FC<{}> = () => {
         </p>
         <p className="text-gray-300 text-center ">
 
-          Hey! I'm a Experienced Programmer with 3+ years of experience that can work in both backend and frontend.
-          I'm comfortable working on both quick tasks and complex long-term projects.
+          Hey! I&apos;m a Experienced Programmer with 3+ years of experience that can work in both backend and frontend.
+          I&apos;m comfortable working on both quick tasks and complex long-term projects.
         </p>
       </div>
     </section>
