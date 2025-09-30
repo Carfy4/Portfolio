@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // Для Three.js и WebGL
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
